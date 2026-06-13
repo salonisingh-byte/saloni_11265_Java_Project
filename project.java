@@ -69,7 +69,7 @@ class Directory {
             return;
         }
 
-        System.out.println("\nAll Contacts:");
+        System.out.println("All Contacts:");
         for (int i = 0; i < count; i++) {
             System.out.println(
                 contacts[i].getName() + " - " +
@@ -86,7 +86,7 @@ public class project {
         Directory directory = new Directory(100);
 
         while (true) {
-            System.out.println("\n1. Add Contact");
+            System.out.println("1. Add Contact");
             System.out.println("2. Search Contact");
             System.out.println("3. Delete Contact");
             System.out.println("4. Display Contacts");
